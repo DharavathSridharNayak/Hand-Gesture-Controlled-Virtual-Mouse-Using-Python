@@ -24,10 +24,13 @@ This real-time computer vision project utilizes **OpenCV**, **MediaPipe**, and *
 
 🖥️ How It Works:
 
-The webcam captures your hand in real time.
-MediaPipe tracks hand landmarks.
-The index fingertip is mapped to screen coordinates to move the mouse.
-When the thumb and index finger come close together, a click is triggered.
+1. The webcam captures your hand in real time.
+
+2. MediaPipe tracks hand landmarks.
+   
+3. The index fingertip is mapped to screen coordinates to move the mouse.
+
+4. When the thumb and index finger come close together, a click is triggered.
 
 📸 Screenshot 👇👇
 
