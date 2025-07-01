@@ -1,4 +1,4 @@
-# 🖐️ HAND GESTURE CONTROLLED VIRTUAL MOUSE USING PYTHON
+# 🖐️ HAND GESTURE CONTROLLED VIRTUAL MOUSE USING PYTHON 🖥️🖱️
 
 Control your computer mouse using only hand gestures with the help of a webcam!  
 This real-time computer vision project utilizes **OpenCV**, **MediaPipe**, and **PyAutoGUI** to detect hand landmarks and map gestures to mouse movements and actions like clicking.
