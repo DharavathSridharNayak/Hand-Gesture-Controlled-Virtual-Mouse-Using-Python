@@ -30,6 +30,8 @@ PyAutoGUI 🖱️
 
 NumPy 🔢
 
+-------------------------------------------------------------------------------
+
 📁 Project Structure
 bash
 Copy
@@ -39,24 +41,9 @@ Edit
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project overview
 ├── How to run.txt              # It shows how it works
-
-   
-    └── screenshots/            # Images to show in README or repo
+ └── screenshots/            # Images to show in README or repo
     -------------------------------------------------------------------------------
 
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the project
-
-bash
-Copy
-Edit
-python virtual_mouse.py
-------------------------------------------------------------
 📸 How It Works: 
 
 Uses MediaPipe to detect 21 hand landmarks
@@ -82,8 +69,6 @@ MediaPipe
 PyAutoGUI
 
 NumPy
-
-All required packages are listed in requirements.txt.
 
 
 📸 Screenshot 👇👇
