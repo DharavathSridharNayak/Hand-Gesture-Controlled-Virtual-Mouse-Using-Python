@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code or JetBrains IDE settings
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Python environment files
+*.egg-info/
+*.egg
+*.pkl
+
+# Colab hidden files
+.config/
+
+# PyAutoGUI screenshots or temporary images
+screenshot*.png
+tmp/
+
+# Build
+build/
+dist/
+*.spec
+
+# Cache
+.cache/
+*.bak
+
+# MediaPipe models (optional, if downloaded)
+mediapipe/models/
