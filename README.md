@@ -32,16 +32,18 @@ NumPy 🔢
 
 -------------------------------------------------------------------------------
 
-📁 Project Structure
-bash
-Copy
-Edit
-📦 HandGesture-Virtual-Mouse/
-├── Hand Gesture .ipynb         # Colab notebook
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project overview
-├── How to run.txt              # It shows how it works
- └── screenshots/            # Images to show in README or repo
+📁 Project Structure:
+
+
+
+
+1. Hand Gesture.ipynb         # Colab notebook
+2. requirements.txt            # Python dependencies
+3. README.md                   # Project overview
+4. How to run.txt              # It shows how it works
+5. screenshots                 # Images to show in README or repo
+6. License                     # Open Source License
+ 
     -------------------------------------------------------------------------------
 
 📸 How It Works: 
