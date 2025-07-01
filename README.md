@@ -1,36 +1,97 @@
 # 🖐️ HAND GESTURE CONTROLLED VIRTUAL MOUSE USING PYTHON 🖥️🖱️
 
-Control your computer mouse using only hand gestures with the help of a webcam!  
-This real-time computer vision project utilizes **OpenCV**, **MediaPipe**, and **PyAutoGUI** to detect hand landmarks and map gestures to mouse movements and actions like clicking.
-
-
-
+Control your computer mouse cursor using hand gestures with the power of Computer Vision and Python. This project leverages your webcam to track hand landmarks in real-time and enables gesture-based control of mouse movement and clicks — without touching a physical mouse.
+----------------------------------------------------------------
 🚀 Features:
 
-- 🖱️ Move mouse cursor using your hand
-- 👆 Left and right click using finger gestures
-- 🧠 Real-time hand tracking with webcam
-- 🔧 Fully implemented in Python
+🖐️ Real-time hand tracking using MediaPipe
 
+🎯 Cursor movement using index finger
 
+👆 Left click with index & middle finger gesture
 
-📦 Technologies Used:
+✌️ Right click with custom hand gesture
 
-- Python 3.x
-- OpenCV
-- MediaPipe
-- PyAutoGUI
-- NumPy
+🎥 Webcam-based input
 
-🖥️ How It Works:
+🧠 Smart gesture smoothing for stable cursor control
 
-1. The webcam captures your hand in real time.
+----------------------------------------------------------------
 
-2. MediaPipe tracks hand landmarks.
+🛠️ Technologies Used:
+
+Python 🐍
+
+OpenCV 📷
+
+MediaPipe 🧠
+
+PyAutoGUI 🖱️
+
+NumPy 🔢
+
+📁 Project Structure
+bash
+Copy
+Edit
+📦 HandGesture-Virtual-Mouse/
+├── Hand Gesture .ipynb         # Colab notebook
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project overview
+├── How to run.txt              # It shows how it works
+
    
-3. The index fingertip is mapped to screen coordinates to move the mouse.
+    └── screenshots/            # Images to show in README or repo
+    -------------------------------------------------------------------------------
+🔧 Installation: 
+Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/DharavathSridharNayak/HandGesture-Virtual-Mouse-Using-Python.git
+cd HandGesture-Virtual-Mouse
 
-4. When the thumb and index finger come close together, a click is triggered.
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the project
+
+bash
+Copy
+Edit
+python virtual_mouse.py
+------------------------------------------------------------
+📸 How It Works: 
+
+Uses MediaPipe to detect 21 hand landmarks
+
+Maps the index finger position to screen coordinates
+
+Detects gestures:
+
+Index Finger Only → Move Cursor
+
+Index + Middle Finger Together → Left Click
+
+Three Fingers (optional) → Right Click
+
+--------------------------------------------------------------
+📝 Requirements: 
+Python 3.7+
+
+OpenCV
+
+MediaPipe
+
+PyAutoGUI
+
+NumPy
+
+All required packages are listed in requirements.txt.
+
 
 📸 Screenshot 👇👇
 
