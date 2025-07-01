@@ -21,7 +21,14 @@ This real-time computer vision project utilizes **OpenCV**, **MediaPipe**, and *
 - MediaPipe
 - PyAutoGUI
 - NumPy
-- 
+
+🖥️ How It Works:
+
+The webcam captures your hand in real time.
+MediaPipe tracks hand landmarks.
+The index fingertip is mapped to screen coordinates to move the mouse.
+When the thumb and index finger come close together, a click is triggered.
+
 📸 Screenshot 👇👇
 
 ![{2B0433E2-DA37-4F43-BE2D-D4021D40A59B}](https://github.com/user-attachments/assets/d93f3602-064f-4a96-9d9e-f74fa838c400)
