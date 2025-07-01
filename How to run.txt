@@ -1,0 +1,75 @@
+===========================
+Hand Gesture Controlled Virtual Mouse
+===========================
+
+🛠 Developed Using:
+- Python
+- OpenCV
+- MediaPipe
+- PyAutoGUI
+
+📌 Description:
+This project allows you to control your mouse cursor using hand gestures detected via webcam. It uses MediaPipe to detect hand landmarks, OpenCV for video capture, and PyAutoGUI to control mouse movements and clicks.
+
+---------------------------
+📥 Step 1: Clone the Repository
+---------------------------
+git clone https://github.com/DharavathSridharNayak/Virtual-Mouse-Hand-Gesture.git
+cd Virtual-Mouse-Hand-Gesture
+
+---------------------------
+📦 Step 2: Install Dependencies
+---------------------------
+Make sure Python (>=3.7) is installed.
+
+Then install the required Python packages:
+
+pip install -r requirements.txt
+
+Or manually install:
+
+pip install opencv-python mediapipe pyautogui
+
+---------------------------
+📸 Step 3: Run the Project
+---------------------------
+Use this command to run the virtual mouse script:
+
+python virtual_mouse.py
+
+📌 Note:
+- Make sure your webcam is connected and accessible.
+- The script will open a webcam window and track your hand.
+- Specific gestures will move the cursor or simulate mouse clicks.
+
+---------------------------
+🤚 Hand Gestures Used:
+---------------------------
+- Move cursor: Index finger up
+- Left click: Index + middle finger up and touching
+- Drag: Thumb + index finger pinch
+(You can modify gestures in the code as needed.)
+
+---------------------------
+⚠️ Troubleshooting:
+---------------------------
+- If webcam doesn't work: Check if another app is using it.
+- If laggy: Reduce frame size or turn off background processes.
+
+---------------------------
+💻 Tested On:
+---------------------------
+- Windows 10/11
+- Python 3.8+
+- OpenCV 4.x
+- MediaPipe latest
+- PyAutoGUI latest
+
+---------------------------
+📂 File Structure:
+---------------------------
+virtual_mouse.py         <-- Main Python script
+README.md                <-- Project description
+how_to_run.txt           <-- This file
+requirements.txt         <-- Python dependencies
+.gitignore               <-- Git ignore file
