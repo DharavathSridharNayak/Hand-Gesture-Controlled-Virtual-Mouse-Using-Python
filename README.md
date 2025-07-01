@@ -43,13 +43,6 @@ Edit
    
     └── screenshots/            # Images to show in README or repo
     -------------------------------------------------------------------------------
-🔧 Installation: 
-Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/DharavathSridharNayak/HandGesture-Virtual-Mouse-Using-Python.git
-cd HandGesture-Virtual-Mouse
 
 Install dependencies:
 
